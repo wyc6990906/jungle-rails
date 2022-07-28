@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-direction: column;
+  input {
+    margin-top: 10px;
+  }
+  input[type="submit"] {
+    color: white;
+    background-color: #09801A;
+  }
+}
