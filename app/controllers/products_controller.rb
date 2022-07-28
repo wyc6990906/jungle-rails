@@ -1,11 +1,11 @@
-class productscontroller < applicationcontroller
+class ProductsController < ApplicationController
 
   def index
-    @products = product.all.order(created_at: :desc)
+    @products = Product.all.order(created_at: :desc)
   end
 
   def show
-    @product = product.find params[:id]
+    @product = Product.find params[:id]
   end
 
 end
