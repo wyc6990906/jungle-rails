@@ -1,2 +1,15 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+<section>
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+
+  <div class="panel panel-default products">
+    <h4>The database has <%= @total_num_products %> products.</h4>
+    <h4>The database has <%= @total_categories %> categories.</h4>
+    <h4>Go to <%= link_to 'Product Admin', admin_products_path %> to view the full list of products.</h4>
+    </div>
+
+
+</section>
